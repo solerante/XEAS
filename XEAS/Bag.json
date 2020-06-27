@@ -8,7 +8,6 @@
     "volume": "3 L",
     "price": 300000,
     "price_postapoc": 500000,
-    "rigid": false,
     "material": [ "nomex" ],
     "symbol": "[",
     "looks_like": "rucksack",
@@ -17,10 +16,24 @@
     "coverage": 1,
     "encumbrance": 1,
     "max_encumbrance": 1,
-    "storage": "120 L",
     "warmth": 1,
     "material_thickness": 2,
-    "flags": [ "BELTED", "WATERPROOF", "STURDY", "POWERARMOR_COMPATIBLE" ]
+    "flags": [ "BELTED", "WATERPROOF", "STURDY", "POWERARMOR_COMPATIBLE", "TARDIS" ]
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "moves": 800,
+        "max_contains_volume": "120 L",
+        "max_contains_weight": "400 kg",
+        "max_item_volume": "100 L",
+        "max_item_length": "5 meter",
+        "spoil_multiplier": 1.0,
+        "weight_multiplier": 0.5,
+        "volume_multiplier": 0.5,
+        "rigid": false,
+        "magazine_well": "1 L"
+      }
+    ]
   },
   {
     "result": "XEAS_bag",
